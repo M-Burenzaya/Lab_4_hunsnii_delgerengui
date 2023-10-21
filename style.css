@@ -5,8 +5,8 @@ h1 {
 body {
     font-family: 'Calibri', sans-serif;
     background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat; background-size: cover;
+    background-position: center center; height: 100vh;
 }
 .back_ground_edit {
     display: flex; justify-content: center; align-items: center;
