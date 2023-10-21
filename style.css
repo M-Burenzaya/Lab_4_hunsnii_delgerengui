@@ -4,16 +4,24 @@ h1 {
 
 body {
     font-family: 'Calibri', sans-serif;
-    background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg");
+    background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .back_ground_edit {
+    display: flex; justify-content: center; align-items: center;
     backdrop-filter: blur(5px);             /* Дэвсгэр зургийн деталыг бууруулна */
     background: rgba(39, 38, 38, 0.1);       /* Бараан өнгөөр зургийн гэрлийг нь бууруулна */
     position: absolute;
     top: 0; left: 0; width: 100%; height: 100%;
 }
+.container {
+    background: rgba(219, 214, 214, 0.5);
+    width: 70%;
+    padding-bottom: 35%; /* This sets the aspect ratio (height/width) to 2:1 */
+    position: relative;
+}
+
 
 .center {
     margin-left: auto;
