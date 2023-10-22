@@ -1,14 +1,28 @@
-document.getElementById('potato').addEventListener('click', function() {
-    // JavaScript code to run when cell 1 is clicked
-    alert('Cell 1 clicked!');
+const dialog = document.getElementById('dialog');
+const content = document.getElementById('content');
+const close = document.getElementById('close');
+
+document.getElementById('potato').addEventListener('click', () => {
+    content.main = 'This is information about potatoes.';
+    dialog.style.display = 'block';
 });
 
-document.getElementById('carrot').addEventListener('click', function() {
-    // JavaScript code to run when cell 2 is clicked
-    alert('Cell 2 clicked!');
+document.getElementById('carrot').addEventListener('click', () => {
+    content.innerHTML = 'This is information about carrots.';
+    dialog.style.display = 'block';
 });
 
-document.getElementById('cabbage').addEventListener('click', function() {
-    // JavaScript code to run when cell 2 is clicked
-    alert('Cell 3 clicked!');
+document.getElementById('cabbage').addEventListener('click', () => {
+    content.innerHTML = 'This is information about cabbage.';
+    dialog.style.display = 'block';
+});
+
+close.addEventListener('click', () => {
+    dialog.style.display = 'none';
+});
+
+window.addEventListener('click', (event) => {
+    if (event.target === dialog) {
+        dialog.style.display = 'none';
+    }
 });
