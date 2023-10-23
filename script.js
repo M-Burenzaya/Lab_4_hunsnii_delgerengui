@@ -31,3 +31,7 @@ document.addEventListener('click', (event) => {
         dialog.style.display = 'none';
     }
 });
+
+const images=[
+    
+]
