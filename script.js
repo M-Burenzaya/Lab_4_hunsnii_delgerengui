@@ -3,26 +3,31 @@ const content = document.getElementById('content');
 const close = document.getElementById('close');
 
 document.getElementById('potato').addEventListener('click', () => {
-    content.innerHTML = 'This is information about potatoes.';
+    document.getElementById('1').style.display = 'block';
+    document.getElementById('2').style.display = 'none';
+    document.getElementById('3').style.display = 'none';
     dialog.style.display = 'block';
 });
 
 document.getElementById('carrot').addEventListener('click', () => {
-    content.innerHTML = 'This is information about carrots.';
+    document.getElementById('1').style.display = 'none';
+    document.getElementById('2').style.display = 'block';
+    document.getElementById('3').style.display = 'none';
     dialog.style.display = 'block';
 });
 
 document.getElementById('cabbage').addEventListener('click', () => {
-    content.innerHTML = 'This is information about cabbage.';
+    document.getElementById('1').style.display = 'none';
+    document.getElementById('2').style.display = 'none';
+    document.getElementById('3').style.display = 'block';
     dialog.style.display = 'block';
 });
 
-close.addEventListener('click', () => {
-    dialog.style.display = 'none';
-});
-
-window.addEventListener('click', (event) => {
+document.addEventListener('click', (event) => {
     if (event.target === dialog) {
+        document.getElementById('1').style.display = 'none';
+        document.getElementById('2').style.display = 'none';
+        document.getElementById('3').style.display = 'none';
         dialog.style.display = 'none';
     }
 });
