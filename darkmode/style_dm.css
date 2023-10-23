@@ -73,9 +73,8 @@ td img:hover {
 
 #lightModeButton {
     position: fixed;
-    top: 10px;
-    right: 10px;
-    background-color: #aaaaaa;
+    top: 10px; right: 10px;
+    background-color: #bebebe;
     color: #000;
     border-radius: 20px; border-color: #000;
     padding: 10px 20px;

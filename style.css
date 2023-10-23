@@ -73,8 +73,7 @@ td img:hover {
 
 #darkModeButton {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 10px; right: 10px;
     background-color: #333;
     color: #fff;
     border-radius: 20px; border-color: #fff;
