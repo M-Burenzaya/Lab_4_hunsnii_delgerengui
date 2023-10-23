@@ -53,21 +53,6 @@ td img:hover {
     margin-right: auto;
 }
 
-details>summary {
-    padding: 4px;
-    width: 200px;
-    background-color: #eeeeee;
-    border: none;
-    box-shadow: 1px 1px 2px #bbbbbb;
-    cursor: pointer;
-}
-
-details>p {
-    padding: 4px;
-    margin: 0;
-    background-color: blanchedalmond;
-    box-shadow: 1px 1px 2px;
-}
 .dialog {
     display: none;
     position: fixed;
@@ -82,13 +67,6 @@ details>p {
     background-color: #fefefe;
     margin: 5% auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+    border: 1px solid #888; border-radius: 30px;
+    width: 70%;
 }
