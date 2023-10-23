@@ -30,18 +30,4 @@ document.addEventListener('click', (event) => {
         document.getElementById('3').style.display = 'none';
         dialog.style.display = 'none';
     }
-<<<<<<< HEAD
 });
-=======
-});
-
-
-const images = [
-    "images/potato.jpg",
-    "images/carrot.jpg",
-    "images/cabbage.jpg"
-];
-document.getElementById("potato").querySelector("img").src = images[0];
-document.getElementById("carrot").querySelector("img").src = images[1];
-document.getElementById("cabbage").querySelector("img").src = images[2];
->>>>>>> 91644203e560caaddffc56c40a778c712f13cc69
