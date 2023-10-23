@@ -26,3 +26,13 @@ window.addEventListener('click', (event) => {
         dialog.style.display = 'none';
     }
 });
+
+
+const images = [
+    "images/potato.jpg",
+    "images/carrot.jpg",
+    "images/cabbage.jpg"
+];
+document.getElementById("potato").querySelector("img").src = images[0];
+document.getElementById("carrot").querySelector("img").src = images[1];
+document.getElementById("cabbage").querySelector("img").src = images[2];
