@@ -3,7 +3,7 @@ const content = document.getElementById('content');
 const close = document.getElementById('close');
 
 document.getElementById('potato').addEventListener('click', () => {
-    content.main = 'This is information about potatoes.';
+    content.innerHTML = 'This is information about potatoes.';
     dialog.style.display = 'block';
 });
 
