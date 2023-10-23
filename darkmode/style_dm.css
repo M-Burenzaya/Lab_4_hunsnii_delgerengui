@@ -1,6 +1,6 @@
 body {
     font-family: 'Calibri', sans-serif;
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat; background-size: cover;
     background-position: center center; height: 100vh;
 }
@@ -71,18 +71,18 @@ td img:hover {
     width: 70%;
 }
 
-#darkModeButton {
+#lightModeButton {
     position: fixed;
     top: 10px;
     right: 10px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 20px; border-color: #fff;
+    background-color: #aaaaaa;
+    color: #000;
+    border-radius: 20px; border-color: #000;
     padding: 10px 20px;
     cursor: pointer;
     font-size: clamp(5px, 5vw, 10px);
 }
 
-#darkModeButton:hover {
-    background-color: #555;
+#lightModeButton:hover {
+    background-color: #969696;
 }

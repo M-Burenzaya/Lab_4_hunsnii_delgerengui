@@ -32,8 +32,8 @@ document.addEventListener('click', (event) => {
     }
 });
 
-function toggleDarkMode() {
-    window.location.href = 'darkmode/main_dm.html';
+function toggleLightMode() {
+    window.location.href = '../main.html';
 }
 
-document.getElementById('darkModeButton').addEventListener('click', toggleDarkMode);
+document.getElementById('lightModeButton').addEventListener('click', toggleLightMode);
